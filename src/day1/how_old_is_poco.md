@@ -12,7 +12,6 @@ This page can be used for a CTF challenge, puzzle, exploit, or investigation tas
 | Name | `How old is Poco?` |
 | Category | `reverse engineering` |
 | Difficulty | `beginner` |
-| Time | `10 minutes` |
 | Flag format | `FLAG{example_format}` |
 
 ## Scenario
@@ -42,6 +41,38 @@ Your flag will be of the format FLAG{[AGE][COLOR]}. For example, if you think Po
 
 <div id="result-2"></div>
 
+
+> [!TIP]
+> If you are not sure where to begin, try putting in a random number\color and see what happens!
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Poco graduated high school recently so he shouldn't be that old...
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+We're pretty sure Poco's favourite color appears on a rainbow...
+
+</details>
+
+
+## Task
+
+**Question:** What is the flag?
+
+<div class="answer-box">
+    <input class="answer-input" type="text" id="answer-1" placeholder="Enter the flag">
+    <button class="answer-button" onclick="checkAnswer('answer-1', 'result-1', 'RkxBR3sxOHJlZH0=')">Check Answer</button>
+</div>
+
+<div id="result-1"></div>
+
 <script>
     function checkAnswer(inputId, resultId, enAnswer) {
         const input = document.getElementById(inputId);
@@ -68,28 +99,6 @@ Your flag will be of the format FLAG{[AGE][COLOR]}. For example, if you think Po
         result.style.display = 'block';
     }
 </script>
-
-> [!TIP]
-> If you are not sure where to begin, try putting in a random number\color and see what happens!
-
-## Hints
-
-<details>
-<summary>Hint 1</summary>
-
-Poco graduated high school recently so he shouldn't be that old...
-
-</details>
-
-<details>
-<summary>Hint 2</summary>
-
-We're pretty sure Poco's favourite color appears on a rainbow...
-
-</details>
-
-
-## Task
 
 > [!SUCCESS] Capture the flag
 > Find the flag and explain how you found it.

@@ -5,7 +5,6 @@
 | Name | `Hexadecimal  Hodgepodge` |
 | Category | `crypto` |
 | Difficulty | `beginner` |
-| Time | `15 minutes` |
 | Flag format | `FLAG{example_format}` |
 
 ## Scenario
@@ -42,6 +41,42 @@ And once we have our list, maybe we can do the translation **for** every charact
 </details>
 
 ## Task
+
+**Question:** What is the flag?
+
+<div class="answer-box">
+    <input class="answer-input" type="text" id="answer-1" placeholder="Enter the flag">
+    <button class="answer-button" onclick="checkAnswer('answer-1', 'result-1', 'RkxBR3tJU3VyZUhvcGVUaGlzTWVzc2FnZURvZXNudEdldEhleENvZGVkfQ==')">Check Answer</button>
+</div>
+
+<div id="result-1"></div>
+
+<script>
+    function checkAnswer(inputId, resultId, enAnswer) {
+        const input = document.getElementById(inputId);
+        const result = document.getElementById(resultId);
+        let correctAnswer;
+
+        try {
+            correctAnswer = atob(enAnswer);
+        } catch (e) {
+            result.className = 'error';
+            result.textContent = 'Error decoding the answer. Please contact support.';
+            result.style.display = 'block';
+            return;
+        }
+
+        if (input.value.trim() == correctAnswer) {
+            result.className = 'correct';
+            result.textContent = 'Correct Answer!';
+        } else {
+            result.className = 'incorrect';
+            result.textContent = 'Incorrec. Try again!';
+        }
+
+        result.style.display = 'block';
+    }
+</script>
 
 > [!SUCCESS] Capture the flag
 > Find the flag and explain how you found it.
