@@ -2,6 +2,8 @@
 
 Choose a challenge to get started:
 
-- [Hexadecimal Hodgepodge](hexadecimal-hodgepodge.md) — decode a hexadecimal message.
-- [How Old Is Poco?](how_old_is_poco.md) — recover Poco's age and favorite color.
-- [Save Poco's Toys!](save-pocos-toys.md) — find the smallest number of boomerangs needed to retrieve the toys.
+- [Hexadecimal Hodgepodge](hexadecimal-hodgepodge.md)
+- [Fuel Cells](fuel-cells.md)
+- [Grouping Up](grouping-up.md)
+- [Lost Signal](lost-signal.md)
+- [Reversing The A-Game](reversing-the-a-game.md)
