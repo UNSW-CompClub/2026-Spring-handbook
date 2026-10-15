@@ -1,6 +1,5 @@
 # Summary
 
-- [Introduction](main.md)
 - [Day 1](day1/day1.md)
   - [Hexadecimal Hodgepodge](day1/hexadecimal-hodgepodge.md)
   - [Fuel Cells](day1/fuel-cells.md)
@@ -12,9 +11,3 @@
   - [Save Poco's Toys!](day2/save-pocos-toys.md)
   - [Escape Route](day2/escape-route.md)
   - [Unique Key](day2/unique-key.md)
-- [Workshop page templates](templates/index.md)
-  - [Guided workshop](templates/guided-workshop.md)
-  - [CTF challenge](templates/ctf-challenge.md)
-  - [Quick reference](templates/quick-reference.md)
-- [Examples](examples/callouts.md)
-  - [Answer widgets](examples/answer-widget.md)
