@@ -1,16 +1,16 @@
 [book]
-title = "Workshop Handbook"
+title = "2026 Spring Workshop Handbook"
 authors = ["CompClub"]
 language = "en"
-description = "A CompClub template for workshop handbooks built with mdBook."
+description = "CompClub 2026 Spring Workshop Handbook"
 
 [build]
 build-dir = "book"
 
 [output.html]
 default-theme = "coal"
-site-url = "/Workshop-handbook-template/"
-git-repository-url = "https://github.com/davidjosesao/Workshop-handbook-template"
+site-url = "/2026_Spring_Workshop/"
+git-repository-url = "https://github.com/UNSW-CompClub/2026-Spring-handbook"
 additional-css = ["theme/custom.css"]
 additional-js = ["theme/question.js", "theme/points.js"]
 
