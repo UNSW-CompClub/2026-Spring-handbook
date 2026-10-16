@@ -8,6 +8,6 @@
   - [Reversing The A-Game](day1/reversing-the-a-game.md)
 - [Day 2](day2/day2.md)
   - [Unique Key](day2/unique-key.md)
-  - [Fuel Cells](day1/fuel-cells.md)
+  - [Fuel Cells](day2/fuel-cells.md)
   - [Save Poco's Toys!](day2/save-pocos-toys.md)
   - [Escape Route](day2/escape-route.md)
