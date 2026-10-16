@@ -1,16 +1,16 @@
-# Clue 2: The Mismatched Fuel Cells
+# Clue 4: The Mismatched Fuel Cells
 
 > [!INFO]
-> You decoded the distress signal: *"Power failure. Backup fuel cells are the key."* Time to check the fuel cells!
+> You decoded Poco's hidden message: *"Poco is safe."* Iceberg-1 has lost power! The backup fuel cells are the key. Time to check them!
 
 ## Challenge Details
 
-| | |
-| --- | --- |
-| Name | `The Mismatched Fuel Cells` |
-| Category | `dsa / hash maps` |
-| Difficulty | `intermediate` |
-| Flag format | `FLAG{some_words_here}` |
+|             |                             |
+| ----------- | --------------------------- |
+| Name        | `The Mismatched Fuel Cells` |
+| Category    | `dsa / hash maps`           |
+| Difficulty  | `intermediate`              |
+| Flag format | `FLAG{some_words_here}`     |
 
 ## Scenario
 
@@ -114,4 +114,3 @@ For this challenge, submit:
 1. The flag.
 2. The main thing that helped you solve it.
 3. A short explanation of how the challenge works.
-

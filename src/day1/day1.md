@@ -2,8 +2,9 @@
 
 Choose a challenge to get started:
 
-- [Hexadecimal Hodgepodge](hexadecimal-hodgepodge.md)
-- [Fuel Cells](fuel-cells.md)
-- [Grouping Up](grouping-up.md)
-- [Lost Signal](lost-signal.md)
-- [Reversing The A-Game](reversing-the-a-game.md)
+- [Lost Signal](1-lost-signal.md)
+- [Hexadecimal Hodgepodge](2-hexadecimal-hodgepodge.md)
+- [The Last Transmission](3-the-last-transmission.md)
+- [Fuel Cells](4-fuel-cells.md)
+- [Reversing The A-Game](5-reversing-the-a-game.md)
+- [Grouping Up](6-grouping-up.md)

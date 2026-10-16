@@ -1,15 +1,15 @@
 # Clue 1: The Lost Signal
 
 > [!INFO]
-> Poco's space station, **Iceberg-1**, has gone dark and nobody knows why. Solve three clues to find out what happened!
+> Poco's space station, **Iceberg-1**, has gone dark and nobody knows why. Solve six clues to find out what happened!
 
 ## Challenge Details
 
-| | |
-| --- | --- |
-| Name | `The Lost Signal` |
-| Category | `misc / python basics` |
-| Difficulty | `beginner` |
+|             |                         |
+| ----------- | ----------------------- |
+| Name        | `The Lost Signal`       |
+| Category    | `misc / python basics`  |
+| Difficulty  | `beginner`              |
 | Flag format | `FLAG{some_words_here}` |
 
 ## Scenario

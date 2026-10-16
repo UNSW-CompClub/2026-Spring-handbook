@@ -1,11 +1,16 @@
+# Clue 2: Hexidecimal Hodgepodge
+
+> [!INFO]
+> You got Poco’s SOS! Now the station computer is trying to talk, but it’s running on emergency power and can only send raw hex.
+
 ## Challenge Details
 
-| | |
-| --- | --- |
-| Name | `Hexadecimal  Hodgepodge` |
-| Category | `crypto` |
-| Difficulty | `beginner` |
-| Flag format | `FLAG{example_format}` |
+|             |                           |
+| ----------- | ------------------------- |
+| Name        | `Hexadecimal  Hodgepodge` |
+| Category    | `crypto`                  |
+| Difficulty  | `beginner`                |
+| Flag format | `FLAG{example_format}`    |
 
 ## Scenario
 
