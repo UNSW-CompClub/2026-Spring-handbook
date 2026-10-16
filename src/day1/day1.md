@@ -2,8 +2,8 @@
 
 Choose a challenge to get started:
 
-- [Hexadecimal Hodgepodge](hexadecimal-hodgepodge.md)
-- [Fuel Cells](fuel-cells.md)
-- [Grouping Up](grouping-up.md)
 - [Lost Signal](lost-signal.md)
+- [Poco's Birthday](how_old_is_poco.md)
+- [Hexadecimal Hodgepodge](hexadecimal-hodgepodge.md)
+- [Grouping Up](grouping-up.md)
 - [Reversing The A-Game](reversing-the-a-game.md)
