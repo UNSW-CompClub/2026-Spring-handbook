@@ -1,15 +1,10 @@
-# CTF Challenge Template
-
-This page can be used for a CTF challenge, puzzle, exploit, or investigation task.
-
-> [!INFO]
-> Replace the example details, files, and hints before using this page for a real challenge.
+# Poco's Birthday
 
 ## Challenge Details
 
 | | |
 | --- | --- |
-| Name | `How old is Poco?` |
+| Name | `Poco's Birthday?` |
 | Category | `reverse engineering` |
 | Difficulty | `beginner` |
 | Flag format | `FLAG{example_format}` |
