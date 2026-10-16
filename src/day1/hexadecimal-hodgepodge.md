@@ -9,6 +9,8 @@
 
 ## Scenario
 
+You board Poco's ship and look around. You check the fuel cells, the map room, the cafeteria. Clues everywhere, but nothing that says Poco is still on board. You make your way to the bridge and see a flashing red dot next to the comms. It's another signal!
+
 We have received the following message that we can't quite understand. Help us decode it, and you might just get your flag!
 
 - 46 4c 41 47 7b 49 53 75 72 65 48 6f 70 65 54 68 69 73 4d 65 73 73 61 67 65 44 6f 65 73 6e 74 47 65 74 48 65 78 43 6f 64 65 64 7d
