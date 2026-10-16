@@ -1,3 +1,5 @@
+# Hexadeimcal Hodgepodge
+
 ## Challenge Details
 
 | | |
@@ -8,6 +10,8 @@
 | Flag format | `FLAG{example_format}` |
 
 ## Scenario
+
+You board Poco's ship and look around. You check the fuel cells, the map room, the cafeteria. Clues everywhere, but nothing that says Poco is still on board. You make your way to the bridge and see a flashing red dot next to the comms. It's another signal!
 
 We have received the following message that we can't quite understand. Help us decode it, and you might just get your flag!
 
