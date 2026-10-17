@@ -73,7 +73,7 @@ The real characters appear at positions 0, 3, 6, 9, ... Try `message[::3]`.
             correctAnswer = atob(enAnswer);
         } catch (e) {
             result.className = 'error';
-            result.textContent = 'Error decoding the answer. Please contact support.';
+            result.textContent = 'Error decoding the answer.';
             result.style.display = 'block';
             return;
         }

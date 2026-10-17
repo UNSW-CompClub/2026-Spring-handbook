@@ -66,7 +66,7 @@ And once we have our list, maybe we can do the translation **for** every charact
             correctAnswer = atob(enAnswer);
         } catch (e) {
             result.className = 'error';
-            result.textContent = 'Error decoding the answer. Please contact support.';
+            result.textContent = 'Error decoding the answer.';
             result.style.display = 'block';
             return;
         }

@@ -80,14 +80,14 @@ try {
             flag = enFlag ? atob(enFlag) : '';
         } catch (e) {
             result.className = 'error';
-            result.textContent = 'Error decoding the answer. Please contact support.';
+            result.textContent = 'Error decoding the answer.';
             result.style.display = 'block';
 return;
         }
 
 if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
             result.className = 'correct';
-            result.textContent = 'Correct! Your flag is: ' + flag;
+            result.textContent = 'Correct!;
         } else {
             result.className = 'incorrect';
             result.textContent = 'Incorrect. Try again!';
