@@ -1,9 +1,7 @@
-# CTF Challenge Template
-
-This page can be used for a CTF challenge, puzzle, exploit, or investigation task.
+# Clue 8: Poco's Toys
 
 > [!INFO]
-> Replace the example details, files, and hints before using this page for a real challenge.
+> We need to find Poco's toys in order to figure out a secret code hidden inside a toy!
 
 ## Challenge Details
 

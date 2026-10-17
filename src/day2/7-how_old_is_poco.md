@@ -1,17 +1,15 @@
-# CTF Challenge Template
-
-This page can be used for a CTF challenge, puzzle, exploit, or investigation task.
+# Clue 7: Poco's Birthday
 
 > [!INFO]
-> Replace the example details, files, and hints before using this page for a real challenge.
+> We need to find the password to some of Poco's encrypted files. Luckily for us, we know that Poco's password is also their birthday! Find Poco's birthday to get access to the files.
 
 ## Challenge Details
 
-| | |
-| --- | --- |
-| Name | `How old is Poco?` |
-| Category | `reverse engineering` |
-| Difficulty | `beginner` |
+|             |                        |
+| ----------- | ---------------------- |
+| Name        | `How old is Poco?`     |
+| Category    | `reverse engineering`  |
+| Difficulty  | `beginner`             |
 | Flag format | `FLAG{example_format}` |
 
 ## Scenario
@@ -41,7 +39,6 @@ Your flag will be of the format FLAG{[AGE][COLOR]}. For example, if you think Po
 
 <div id="result-2"></div>
 
-
 > [!TIP]
 > If you are not sure where to begin, try putting in a random number\color and see what happens!
 
@@ -60,7 +57,6 @@ Poco graduated high school recently so he shouldn't be that old...
 We're pretty sure Poco's favourite color appears on a rainbow...
 
 </details>
-
 
 ## Task
 

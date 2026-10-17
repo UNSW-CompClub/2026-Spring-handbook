@@ -1,15 +1,15 @@
-# Clue 3: The Escape Route
+# Clue 10: The Escape Route
 
 > [!INFO]
 > With the generator running, Iceberg-1's lights flicker back on. Then the alarms start. Someone has sealed the corridors, and Poco needs to get to the escape pod!
 
 ## Challenge Details
 
-| | |
-| --- | --- |
-| Name | `The Escape Route` |
-| Category | `dsa / graphs` |
-| Difficulty | `advanced` |
+|             |                         |
+| ----------- | ----------------------- |
+| Name        | `The Escape Route`      |
+| Category    | `dsa / graphs`          |
+| Difficulty  | `advanced`              |
 | Flag format | `FLAG{some_words_here}` |
 
 ## Scenario
@@ -44,7 +44,7 @@ For example, `20_150` means a shortest path of 20 moves and 150 reachable tiles.
 
 ## Getting Started
 
-You *could* trace the path by eye, but counting every reachable tile by hand is slow and easy to get wrong. Let's get Python to explore the map for us!
+You _could_ trace the path by eye, but counting every reachable tile by hand is slow and easy to get wrong. Let's get Python to explore the map for us!
 
 A **BFS (breadth-first search)** explores outwards from `S` in rings: first every tile 1 move away, then every tile 2 moves away, and so on. The first time it reaches `E`, that is guaranteed to be the shortest path.
 
@@ -94,7 +94,7 @@ print("Reachable tiles:", ???)
 ```
 
 > [!TIP]
-> Not sure how BFS works? Try it on paper first. Put `S` in the queue, then write down its neighbours, then *their* neighbours. You'll see the rings grow outwards.
+> Not sure how BFS works? Try it on paper first. Put `S` in the queue, then write down its neighbours, then _their_ neighbours. You'll see the rings grow outwards.
 
 ## Hints
 

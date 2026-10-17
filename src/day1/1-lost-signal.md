@@ -55,6 +55,7 @@ The real characters appear at positions 0, 3, 6, 9, ... Try `message[::3]`.
 ## TASK
 
 **Question:** What is the flag?
+
 > Find the flag and explain how you found it.
 
 For this challenge, submit:
