@@ -10,5 +10,6 @@
 - [Day 2](day2/day2.md)
   - [How Old Is Poco?](day2/7-how_old_is_poco.md)
   - [Save Poco's Toys!](day2/8-save-pocos-toys.md)
+  - [Unique Key Input](day2/9-unique-key-input.md)
   - [Unique Key](day2/9-unique-key.md)
   - [Escape Route](day2/10-escape-route.md)
