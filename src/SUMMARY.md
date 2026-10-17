@@ -7,9 +7,8 @@
   - [Fuel Cells](day1/4-fuel-cells.md)
   - [Reversing The A-Game](day1/5-reversing-the-a-game.md)
   - [Grouping Up](day1/6-grouping-up.md)
-  <!--  - [Day 2](day2/day2.md)
+- [Day 2](day2/day2.md)
   - [How Old Is Poco?](day2/how_old_is_poco.md)
   - [Save Poco's Toys!](day2/save-pocos-toys.md)
   - [Escape Route](day2/escape-route.md)
   - [Unique Key](day2/unique-key.md)
-    -->
