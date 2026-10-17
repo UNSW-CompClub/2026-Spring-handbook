@@ -61,43 +61,6 @@ Spaces, full stops and commas aren't capitals, so `.isupper()` skips them for yo
 ## TASK
 
 **Question:** What is the secret word?
-
-<div class="answer-box">
-    <input class="answer-input" type="text" id="answer-1" placeholder="e.g. HELLO">
-    <button class="answer-button" onclick="checkAnswer('answer-1', 'result-1', 'UE9DT0lTU0FGRQ==', 'RkxBR3tQMGMwXzFzX1M0ZjN9')">Check Answer</button>
-</div>
-
-<div id="result-1"></div>
-
-<script>
-function checkAnswer(inputId, resultId, enAnswer, enFlag) {
-const input = document.getElementById(inputId);
-const result = document.getElementById(resultId);
-let correctAnswer, flag;
-
-try {
-            correctAnswer = atob(enAnswer);
-            flag = enFlag ? atob(enFlag) : '';
-        } catch (e) {
-            result.className = 'error';
-            result.textContent = 'Error decoding the answer. Please contact support.';
-            result.style.display = 'block';
-return;
-        }
-
-if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-            result.className = 'correct';
-            result.textContent = 'Correct! Your flag is: ' + flag;
-        } else {
-            result.className = 'incorrect';
-            result.textContent = 'Incorrect. Try again!';
-        }
-
-        result.style.display = 'block';
-    }
-</script>
-
-> [!SUCCESS] Capture the flag
 > Find the flag and explain how you found it.
 
 For this challenge, submit:
