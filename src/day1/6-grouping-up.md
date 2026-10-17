@@ -14,40 +14,39 @@
 ## Scenario
 
 Heads up, Poco's successfully transmitted our next clue! However, the evil aliens have obscured the clue by inserting random letters in the mix. Your team has managed to narrow down the potential flags to the following:
-
-- option1
-- option2
-- option3
-- option4
-- option5
+- antragdlas
+- illiadminourseems
+- welhhikeassiveneatombatgin
+- nciesasahandlieotheG
+- dertbeneatroweimerenies 
 
 Your task is to help them figure out which one is correct!
 
 ## Examples
 
-How is the flag hidden? Well, we're told it must be a **subsequence** of the original message, ie it's a new string generated from the original string with some characters (can be none) deleted. The **relative order of the remaining characters is left unchanged**. Here's a few simple examples to understand subsequences!
+How is the flag hidden? Well, we're told the flag is the only string which is NOT a **subsequence** of the original message. A **subsequence** is a new string generated from the original string with some characters (can be none) deleted. The **relative order of the remaining characters is left unchanged**. Here's a few simple examples to understand subsequences!
 
-- `ace` is a subsequence of `abcde`, since you can delete 'b' and 'd' from `abcde` to get `ace`.
-- `a` is a subsequence of `abcde` since you can delete 'bcde'.
-- `bb` is NOT a subseuqnce of `abcde`, since you cannot get `bb` by just deleting letters from `abcde`.
+- ```ace``` is a subsequence of ```abcde```, since you can delete 'b' and 'd' from ```abcde``` to get ```ace```.
+- ```a``` is a subsequence of ```abcde``` since you can delete 'bcde'.
+- ```bb``` is NOT a subseuqnce of ```abcde```, since you cannot get ```bb``` by just deleting letters from ```abcde```.
 
 > Ask a mentor if you're still in doubt!
 
 ## Your task
-
 Now that you know exactly how the flag is hidden, here's your task:
-
 - Write a program that determines whether a given string is a valid subsequence of the original message Poco transmitted.
 - Test the options your team has narrowed down.
 
-Your flag will be the correct subsequence!
+Your flag will be the only incorrect subsequence!
 
 ## Getting Started
 
-Given that your program takes in a string `original_password`, and a string `word`, we want to know whether `word` is a valid subsequence of `original_password`.
+Given that your program takes in a string ```word```, we want to know whether ```word``` is a valid subsequence of the `original_message` string stored in the function.
 
 ```python
-def isSubsequence(original_password, word):
+def isSubsequence(word):
+    original_message = '''A towel, [The Hitchhiker's Guide to the Galaxy] says, is about the most massively useful thing an interstellar hitchhiker can have. Partly it has great practical value. You can wrap it around you for warmth as you bound across the cold moons of Jaglan Beta; you can lie on it on the brilliant marble-sanded beaches of Santraginus V, inhaling the heady sea vapors; you can sleep under it beneath the stars which shine so redly on the desert world of Kakrafoon; use it to sail a miniraft down the slow heavy River Moth; wet it for use in hand-to-hand-combat; wrap it round your head to ward off noxious fumes or avoid the gaze of the Ravenous Bugblatter Beast of Traal (such a mind-boggingly stupid animal, it assumes that if you can't see it, it can't see you); you can wave your towel in emergencies as a distress signal, and of course dry yourself off with it if it still seems to be clean enough.'''
+    
     # your logic goes here!
     return true
 ```
@@ -55,7 +54,6 @@ def isSubsequence(original_password, word):
 > What does it mean if our function returns true? What if it returns false?
 
 ## Hints
-
 <details>
 <summary>Hint 1</summary>
 If you wanted to do this by hand, how would you track your letters in the word and original_password? 
@@ -78,7 +76,6 @@ When do you know you have a match? Can we compare the word pointer with the expe
 </details>
 
 ## Task
-
 > Find the flag and explain how you found it!
 
 For this challenge, submit:
