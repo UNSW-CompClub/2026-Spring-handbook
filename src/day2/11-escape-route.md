@@ -1,4 +1,4 @@
-# Clue 10: The Escape Route
+# Clue 11: The Escape Route
 
 > [!INFO]
 > With the generator running, Iceberg-1's lights flicker back on. Then the alarms start. Someone has sealed the corridors, and Poco needs to get to the escape pod!
