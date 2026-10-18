@@ -32,6 +32,9 @@ class Solution:
         
 ```
 
+Transmission file: 
+<a href="airlock-docs/transmission.txt" download>transmission.txt</a>
+
 **Question:** What is the window size the airlock uses?
 
 <div class="answer-box">
