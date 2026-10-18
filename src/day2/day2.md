@@ -6,4 +6,5 @@ Choose a challenge to get started:
 - [Save Poco's Toys!](8-save-pocos-toys.md)
 - [Unique Key Input](9-unique-key-input.md)
 - [Unique Key](9-unique-key.md)
-- [Escape Route](10-escape-route.md)
+- [Sealing The Airlock](10-braces.md)
+- [Escape Route](11-escape-route.md)
